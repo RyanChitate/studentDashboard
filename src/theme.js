@@ -27,6 +27,17 @@ export const tokens = (mode) => ({
           800: "#080b12",
           900: "#040509",
         },
+        black: {
+          100: "#1a1a1a", // Very dark gray
+          200: "#2c2c2c", // Charcoal gray
+          300: "#3d3d3d", // Deep gray
+          400: "#4f4f4f", // Dark slate gray
+          500: "#666666", // Standard dark gray
+          600: "#7d7d7d", // Medium-dark gray
+          700: "#999999", // Medium gray
+          800: "#b3b3b3", // Light gray
+          900: "#cccccc", // Very light gray (close to white)
+        },
         greenAccent: {
           100: "#dbf5ee",
           200: "#b7ebde",

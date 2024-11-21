@@ -54,7 +54,7 @@ const Calendar = () => {
         {/* CALENDAR SIDEBAR */}
         <Box
           flex="1 1 20%"
-          backgroundColor={colors.primary[400]}
+          backgroundColor={colors.grey[800]}
           p="15px"
           borderRadius="4px"
         >
@@ -112,13 +112,13 @@ const Calendar = () => {
             initialEvents={[
               {
                 id: "12315",
-                title: "All-day event",
-                date: "2022-09-14",
+                title: "NEW YEARS",
+                date: "2025-01-01",
               },
               {
                 id: "5123",
-                title: "Timed event",
-                date: "2022-09-28",
+                title: "Richfield Induction",
+                date: "2025-03-10",
               },
             ]}
           />
